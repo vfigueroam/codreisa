@@ -1,0 +1,245 @@
+@import url(estilo.css);
+
+body{
+	margin: 0;
+    padding: 0;
+	background: #000;
+	font-family: Arial, Helvetica, Tahoma ;
+	font-size: 13px;
+	background:url("../images/honey_im_subtle.png") repeat 0 0 #000;
+}
+
+img{ 
+	width: auto;
+    height: 100%;
+    }
+
+a{text-decoration:none;}
+
+ul{
+	padding-top: 0px;
+	margin: 0;
+	list-style-type: none;
+	}
+
+li{
+	display: inline;
+}
+
+.center{
+	position: relative;
+    left: 0%;
+    top: 25%;
+    transform: translate(-25%, 0%);
+}
+
+/*-----CABECERA-------*/
+
+.cabecera{
+	background: white;
+	height: 115px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	margin-top: 0px;
+	position: relative;
+	}
+
+.logo{
+	padding:12px 3px 1px 75px;
+	float:left;
+	height: 90px;
+	width: 40%;
+	position: absolute;
+    overflow: hidden;
+}
+
+.menu{
+	float: right;
+	height: 100%;
+	width: 60%;
+	position: relative;
+	}
+
+.redes{
+	margin-left: 74%;
+	width: auto;
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav{
+    padding-top: 10px;
+    padding-left: 40%;
+	width: auto;
+	height: 50%;
+	position: relative;
+	z-index:1000;
+}
+
+/*--------MENU---------*/
+
+ul#menunav, #menunav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+#menunav li{
+	float:left;
+    position:relative;
+}
+
+#menunav li a{
+	display:block;
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    color:#0c4251;
+    font-size: 13pt;
+    font-weight: bold;
+    text-decoration:none;
+    line-height:1.3em;
+}
+
+#menunav li a:hover{
+	color:white;
+    background:#0c4251; 
+}
+
+#menunav li ul{
+	display:none;
+    position:absolute;
+    left:0;
+}
+
+#menunav li:hover ul {
+	display:block;
+}
+
+#menunav li ul a{
+	color: white;
+    background-color:#028fb6;
+    font-weight: normal !important;
+}
+
+/*--------MENU---------*/
+
+/*-----CABECERA-------*/
+
+
+/*-----DISPLAY-------*/
+.display{
+	background: white;
+	background-image: url("../images/display.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% auto;
+	height: 400px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	overflow: auto;
+	margin-bottom: 5px;
+}
+
+.import{
+	padding: 5% 3% 1% 5%;
+	float:left;
+	height: 400px;
+	width: 60%;
+	position: absolute;
+	overflow: hidden;
+	font-size: 20pt;
+}
+
+.bold{
+	font-size: 23pt !important;
+	font-weight: bold;
+	color:#0c4251;
+}
+
+.engranes{
+	float:right;
+	height: 375px;
+	width: 40%;
+	position: relative;
+	overflow: hidden;
+	}
+
+.descubrelos{
+	margin-top: 80px;
+	background: #0c4251;
+    height: 140px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.boxtool{
+	width: 70%;
+	float: left;
+	display: table;
+	
+}
+
+.tool{
+	padding-left: 130px;
+	padding-right: 25px;
+	vertical-align: middle;
+    display: table-cell;
+    
+}
+
+.botond{
+	float:right;
+	padding-top: 50px;
+	height: 140px;
+	width: 30%;
+	position: relative;
+	
+}
+
+.ofrecemos{
+	vertical-align: middle;
+    display: table-cell;
+    font-size: 21pt;
+    color:white;
+  }
+
+.boton{
+	padding:3px 10px;
+    color:white;
+    font-size: 15pt;
+    text-decoration:none;
+    background-color:#30C3E4;
+    cursor:pointer;
+    border:none;
+}
+
+.boton:hover{
+	padding:3px 10px;
+    color:white;
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration:none;
+    background-color:#30C3E4;
+    cursor:pointer;
+    border:none;
+}
+
+/*-----DISPLAY-------*/
+
+.footer{
+	height: 75px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+.final{
+	padding-top: 5%;
+	width: 50%;
+    margin: 0 auto;
+}
