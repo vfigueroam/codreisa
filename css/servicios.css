@@ -1,0 +1,28 @@
+.cont{
+	background: white;
+	height: auto;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	margin-top: 0px;
+	position: relative;
+	margin:0;
+	padding: 0;
+}
+
+.tmulti{
+	background: white;
+	height: 500px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	margin-top: 0px;
+	position: relative;
+}
+
+.multi{
+	width: 100%; 
+	height: auto;
+margin:0 auto;
+}
+
