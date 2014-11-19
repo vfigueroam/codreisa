@@ -1,0 +1,41 @@
+
+h3{
+	color: #0c4251;
+	text-align: center;
+}
+.ante{
+	background: white;
+	height:575px;
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+	margin-top: 0px;
+	position: relative;
+	margin-bottom: 5px;
+	}
+
+.texto{
+	background: white;
+	width: 50%;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+	padding: 40px;
+	text-align : justify;
+
+}
+
+.pieza{
+	width: 50%;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgpieza{
+	padding-top: 10%;
+	padding-left: 15%;
+	height: 400px;
+	width: auto;
+}
+
