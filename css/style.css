@@ -1,5 +1,5 @@
-@import url(estilo.css);
-@import url(servicios.css);
+@import url(acerca.css);
+@import url(multicar.css);
 
 
 body{
@@ -61,10 +61,10 @@ li{
 	height: 100%;
 	width: 60%;
 	position: relative;
-	}
+}
 
 .redes{
-	margin-left: 74%;
+	margin-left: 70%;
 	width: auto;
 	height: 50%;
 	overflow: hidden;
